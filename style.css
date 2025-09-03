@@ -1,0 +1,33 @@
+/* Front-end Styles for Email Restriction Content Block */
+
+/*
+ * Styling for restricted message container.
+ */
+.email-restriction-content-block.restricted {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 240px;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #ffffff;
+}
+
+/*
+ * Normalize paragraph styling in restricted messages.
+ */
+.email-restriction-content-block.restricted p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+
+/*
+ * Ensure inline formatting tags display correctly.
+ */
+.email-restriction-content-block.restricted a,
+.email-restriction-content-block.restricted strong,
+.email-restriction-content-block.restricted em {
+	display: inline;
+}

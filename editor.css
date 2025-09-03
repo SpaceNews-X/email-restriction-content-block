@@ -1,0 +1,51 @@
+/* Editor Styles for Email Restriction Content Block */
+
+/*
+ * Container for nested blocks in the editor.
+ */
+.email-restriction-content-block-editor {
+	border: 1px solid #e2e4e7;
+	padding: 16px;
+	background: #fff;
+	min-height: 100px;
+}
+
+/*
+ * Spacing between message control sections.
+ */
+.restricted-message-control {
+	margin-bottom: 20px;
+}
+
+/*
+ * Styling for control labels.
+ */
+.restricted-message-control .components-base-control__label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+
+/*
+ * Styling for rich text editors in message controls.
+ */
+.logged-in-message-control .large-richtext-editor,
+.not-logged-in-message-control .large-richtext-editor {
+	min-height: 150px;
+	width: 100%;
+	border: 1px solid #e2e4e7;
+	padding: 10px;
+	background: #f8f9fa;
+	resize: vertical;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/*
+ * Focus state for rich text editors.
+ */
+.logged-in-message-control .large-richtext-editor:focus,
+.not-logged-in-message-control .large-richtext-editor:focus {
+	border-color: #007cba;
+	outline: none;
+}
